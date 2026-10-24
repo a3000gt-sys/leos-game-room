@@ -446,7 +446,7 @@
           <form class="board-form" id="board-form">
             <label for="club-name">Your club name</label>
             <input id="club-name" name="club" type="text" autocomplete="off"
-                   placeholder="Like: Sunnyvale Sharks" />
+                   placeholder="Like: Sunnyvale Sharks" value="ellies-game-room" />
             <button class="btn" id="board-btn" type="submit">See the board!</button>
           </form>
           <div class="board-status" id="board-status" role="status"></div>
@@ -476,7 +476,7 @@
       //   const CLUB_API = "https://club.realskillspress.com";
       // The board is then loaded from:  GET {CLUB_API}/board?club=<name>
       // ================================================================
-      const CLUB_API = "";
+      const CLUB_API = "https://club.realskillspress.com";
 
       (function () {
         var form = document.getElementById("board-form");
